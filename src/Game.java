@@ -1,8 +1,10 @@
+import java.time.YearMonth;
+
 public class Game {
      private String name;
      private String salesAgency;
-     private double yearMonth;
-     public Game(String name, String salesAgency, double yearMonth) {
+     private YearMonth yearMonth;
+     public Game(String name, String salesAgency, YearMonth yearMonth) {
          this.name = name;
          this.salesAgency = salesAgency;
          this.yearMonth =yearMonth;
@@ -13,7 +15,7 @@ public class Game {
     public  String getSalesAgency() {
         return salesAgency;
     }
-    public double getYearMonth() {
+    public YearMonth getYearMonth() {
         return yearMonth;
     }
 }
