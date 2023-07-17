@@ -6,9 +6,9 @@ public class Game {
     private YearMonth yearMonth;
 
     public Game(String name, String salesAgency, YearMonth yearMonth) {
-         this.name = name;
-         this.salesAgency = salesAgency;
-         this.yearMonth = yearMonth;
+        this.name = name;
+        this.salesAgency = salesAgency;
+        this.yearMonth = yearMonth;
     }
 
     public String getName() {
